@@ -10,12 +10,12 @@ class Form1(Form1Template):
 
     # Any code you write here will run before the form opens.
 
+  def button_1_click(self, **event_args):
+    self.image_1.source = None
+    coins = ['http://re-bol.com/heads.jpg', 'http://re-bol.com/tails.jpg']
+    coin = random.choice(coins)
+    time.sleep(1)
+    self.image_1.source = URLMedia(coin)
 
 
-def button_1_click(self, **event_args):
-  self.image_1.source = None
-  coins = ['http://re-bol.com/heads.jpg', 'http://re-bol.com/tails.jpg']
-  coin = random.choice(coins)
-  time.sleep(1)
-  self.image_1.source = URLMedia(coin)
 
