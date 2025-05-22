@@ -1,7 +1,7 @@
 allow_embedding: false
 metadata: {description: Coin Flip, title: Coin Flip}
-name: Coin Flip
-package_name: Coin_Flip
+name: 04 Coin Flip
+package_name: _04_Coin_Flip
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
